@@ -1,4 +1,4 @@
-/*------ stile di base della pagina ------*/
+/*------ stile generale della pagina ------*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@
 body {
     max-width: 1440px;
     margin: auto;
-    height: 2000px;
 }
 
 /*------ logo della pagina e navigazione ------*/
@@ -148,11 +147,11 @@ a {
 
 /*------ crediti al creatore della pagina ------*/
 .credits {
-    margin-top: 15px;
     text-align: center;
     vertical-align: auto;
     color: black;
     font-size: 22px;
+    margin-bottom: 30px;
 }
 
 #cuore {
