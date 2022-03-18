@@ -1,4 +1,4 @@
-/* stile di base della pagina */
+/*------ stile di base della pagina ------*/
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +8,11 @@
 }
 
 body {
-    max-width: 1280px;
+    max-width: 1000px;
     margin: auto;
 }
 
-/* header */
+/*------ logo della pagina e navigazione ------*/
 #logo {
     padding-right: 40px;
     height: 100px;
@@ -27,13 +27,12 @@ nav {
 a {
     text-decoration: none;
     padding-right: 5px;
-    color: #8A8A8A;
 }
 
-/* main */
+/*------ stile del banner principale ------*/
 .banner ,.layer {
     border-radius: 20px;
-    border: 1px transparent black;
+    border: 1px transparent;
 }
 
 .banner {
@@ -54,6 +53,7 @@ a {
     height: 100%;
 }
 
+/*------ descrizione del banner principale ------*/
 .description {
     position: absolute;
     bottom: 15%;
@@ -68,17 +68,23 @@ a {
     font-size: 34px;
 }
 
-
+/*------ stile dell'articolo giornalistico ------*/
 .article {
-    background-color: rgb(1, 134, 255);
     height: 600px;
 }
 
+/*------ stile del titolo dell'articolo ------*/
 .top {
-    background-color: rgb(171, 207, 231);
     height: 80px;
 }
 
+.top > section {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*------ stile delle colonne dell'articolo ------*/
 .columns {
     height: calc(100% - 100px);
     padding-top: 20px;
@@ -93,7 +99,6 @@ a {
 .left, .middle, .right {
     float: left;
     height: 100%;
-    background-color: rgb(171, 207, 231);
 }
 
 .left, .right {
@@ -105,6 +110,21 @@ a {
     margin: 0px 20px;
 }
 
+.img-side ,.img-layer {
+    width: 100%;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+.img-side {
+    height: 100%;
+    opacity: 0.7;
+}
+.img-layer {
+    background-color: black;
+    height: 40%;
+}
+
+/*------ crediti al creatore della pagina ------*/
 .credits {
     margin-top: 15px;
     height: 70px;
